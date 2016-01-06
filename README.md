@@ -4,7 +4,7 @@ Prasad Borole(pborole@buffalo.edu)
 
 INTRODUCTION:
 ------------
-Filename: assignment2.c
+Filename: distanceVector.c
 Compiler: GCC
 
 This file contains Implementation of Routing Protocols (using C and UDP Sockets). 
@@ -13,8 +13,8 @@ A simplified version of the Distance Vector Routing protocol using Bellman-Ford 
 USAGE:
 ----
 Compile and run file:
-root>gcc -o assignment2 assignment2.c
-root>./assignment2 -t <topology-file-name> -i <routing-update-interval>
+root>gcc -o distanceVector distanceVector.c
+root>./distanceVector -t <topology-file-name> -i <routing-update-interval>
 
 Commands supported:
 1.update <server-ID1> <server-ID2> <Link Cost>
